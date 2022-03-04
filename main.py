@@ -6,9 +6,9 @@ from geopy.geocoders import Nominatim
 import time, requests, json, ctypes, geopy, os
 
 #setting up some variables
-apikey = "insert-api-key"
-longitude = -75.7464925
-latitude = 45.350048
+apikey = "h"
+longitude = 0
+latitude = 0
 unit = "metric"
 
 #opening up config.txt and changing some stuff
