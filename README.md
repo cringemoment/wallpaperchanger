@@ -7,5 +7,7 @@ Running the python script will automatically change the wallpaper
  
 ### https://pypi.org/project/geopy/ - GeoPy
 
+### https://pypi.org/project/requests/ - requests
+
 Note: This will probably only work on windows
 Also, a lot of the image files are missing for other weather events, such as rain and some snow. Add them yourselves, if you're up for the challenge.
