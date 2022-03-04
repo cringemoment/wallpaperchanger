@@ -1,5 +1,3 @@
-#
-
 #importing the modules(shoutout to PIL tho)
 from PIL import Image
 from PIL import ImageDraw
@@ -8,6 +6,7 @@ from geopy.geocoders import Nominatim
 import time, requests, json, ctypes, geopy, os
 
 #setting up some variables
+apikey = "insert-api-key"
 longitude = -75.7464925
 latitude = 45.350048
 unit = "metric"
@@ -23,7 +22,6 @@ for i in config:
 #latitude = 45.350048
 
 #getting the weather from openweathermap
-apikey = "aaf946a3f3c549a79e0808093935f46f"
 weather = requests.get("https://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&appid=%s&units=%s" % (latitude, longitude, apikey, unit))
 rawweather = weather.json()
 
