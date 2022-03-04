@@ -1,5 +1,6 @@
 # Program Configuration
-longitude = -75.7464925
-latitude = 45.350048
+longitude = 45.4233284
+latitude = -80.3588908
 # The 3 units are "kelvin", "metric", and "imperial". Typing something incorrectly gives you "kelvin". It is recommended to use "metric".
 unit = "imperial"
+api_key = "your-api-key"
