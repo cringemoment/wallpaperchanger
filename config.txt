@@ -1,6 +1,5 @@
-#configuration for the program
-#basic stuff rn but i can add more stuff later
+# Program Configuration
 longitude = -75.7464925
 latitude = 45.350048
-#the 3 units are "kelvin", "metric", and "imperial". Typing something incorrectly gives u kelvin. It is reccomended to use metric.
+# The 3 units are "kelvin", "metric", and "imperial". Typing something incorrectly gives you "kelvin". It is recommended to use "metric".
 unit = "imperial"
